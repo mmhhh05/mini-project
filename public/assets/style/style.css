@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(241, 232, 201);
+  color: rgb(9, 223, 63);
+}
+.timer {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgb(36, 182, 170);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: rgb(57, 163, 80);
+  color: rgb(13, 13, 14);
+}
+
+.action_button {
+  width: 20px;
+  height: 20px;
+  margin: 2px;
+  border-radius: 50%;
+}
